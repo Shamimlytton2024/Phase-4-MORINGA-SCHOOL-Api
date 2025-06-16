@@ -81,10 +81,34 @@ Request Body:
     SQLite
 
     Faker (for seed data)
+    
+ ### requirements.txt
 
- ## Contributors
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+Flask-Migrate==4.0.5
+Faker==24.8.0
+python-dotenv==1.0.1
 
-    [Shamim kalande] (Melon Obade, Brian Mongare, Dedan Opiyo,Eslie, Joan Kori)
+  ###  To Create It
+
+You can copy that into a file:
+'''bash
+
+~ touch requirements.txt
+~ nano requirements.txt
+
+Paste the content, then save and exit.
+
+### To Install All Dependencies
+
+Once you're in your virtual environment:
+'''bash
+~ pip install -r requirements.txt
+
+ ## Contributors:
+
+ [Shamim kalande] (Melon Obade, Brian Mongare, Dedan Opiyo,Eslie, Joan Kori)
 
 
 # License
